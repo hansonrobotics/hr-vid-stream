@@ -1,4 +1,5 @@
 #!/bin/bash
+#Copyright (c) 2013-2018 Hanson Robotics, Ltd.
 gst-launch-1.0 -v -e uvch264src device=/dev/video1 name=src auto-start=true \
   src.vfsrc \
     ! queue \
